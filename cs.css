@@ -1,0 +1,116 @@
+.ih{
+    width: 1600px;
+    height: 173px;
+    background:url(imgs/logo-header_01.png);
+}
+.n{
+    width: 1600px;
+    height: 44px;
+    background: url(imgs/navigation_02.png);
+    position: relative;
+    bottom: -129px;
+}
+.s{
+    width: 1600px;
+    height: 129px;
+    background: url(imgs/navigation_01.png);
+    position: relative;
+    top: -40px;
+}
+.bac{
+    width: 1600px;
+    height: 1400px;
+    background: url(imgs/bac_02.png);
+    position: relative;
+}
+.header{
+    width: 960px;
+    height: 323px;
+    background:url(imgs/header_04.png);
+    position: relative;
+    right: -320px;
+    bottom:-79px;
+}
+.footer{
+    width: 1600px;
+    height: 303px;
+    background: url(imgs/footer_22.png);
+}
+.cat{
+    width: 209px;
+    height: 390px;
+    background: url(imgs/categories_08.png);
+    position: relative;
+    right: -330px;
+    bottom:-79px;
+}
+.nsn{
+    width: 209px;
+    height: 330px;
+    background: url(imgs/nsn_13.png);
+    position: relative;
+    right: -330px;
+    bottom:-89px;
+}
+.pm{
+    width: 210px;
+    height: 189px;
+    background: url(imgs/py_18.png);
+    position: relative;
+    right: -330px;
+    bottom:-89px;
+}
+.pro{
+    width: 706px;
+    height: 691px;
+    background: url(imgs/products_10.png);
+    float:right;
+    position: relative;
+    top: -830px;
+    left: -330px;
+}
+#container {
+    width: 706px;   /*此宽度根据图片宽度调整 */
+    height: 212px;  /*此高度根据图片宽度调整 */
+    background: url(imgs/fp2_03.png);
+    overflow: hidden;   /*为了将图片隐藏*/
+    position: relative;
+    float:right;
+    position: relative;
+    top: -115px;
+    right: -377px;
+}
+#list {
+    width: 588px;  /*图片总宽度*/
+    height: 136px;
+    position: absolute;
+    z-index: 1;
+}
+#list img {
+    float: left;
+    width: 147px;
+    height: 136px;
+}
+.arrow {
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;  /*设置箭头的大小*/  
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    z-index: 2;  /*将arrow放在list上层*/ 
+    top: 120px;
+    color: #fff;
+}
+#prev {
+    left: 0;
+}
+#next {
+    right: 0;
+}
+#prev:hover,
+#next:hover {
+    background: #333;
+}
+
